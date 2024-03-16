@@ -4,6 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sumair Sufiyan's Portfolio</title>
+    <style>
+        /* CSS styles go here */
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            float: left;
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav ul {
+            float: right;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: #ccc;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        section h2 {
+            margin-bottom: 20px;
+        }
+
+        section h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        section p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .project-details {
+            margin-left: 20px;
+        }
+
+        .project-details ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .project-details ul li {
+            margin-bottom: 10px;
+        }
+
+        .project-details ul li:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML code goes here -->
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumair Sufiyan's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -33,13 +143,71 @@
             <h2>About Me</h2>
             <p>Salesforce Certified Administrator (ADM – 201) and Certified Platform Developer with expertise in Apex, LWC, and Salesforce administration. Proficient in SQL with a proven track record of writing efficient queries and conducting data analysis. Skilled in Agile methodologies, system maintenance, and risk assessment. Excellent communicator with a strong track record of collaborating with cross-functional teams.</p>
             <p><strong>Trailhead Profile ID:</strong> <a href="https://trailblazer.me/id/mss1207">https://trailblazer.me/id/mss1207</a></p>
+            <h3>Education</h3>
+            <p>MSc in Electrical and Computer Sciences, University of Alberta - August 2023</p>
+            <p>B.E in Electronics and Communication Engineering, Osmania University - July 2019</p>
         </div>
     </section>
 
     <section id="projects">
         <div class="container">
             <h2>Projects</h2>
-            <!-- Add your project thumbnails/cards here -->
+            <h3>Salesforce Integration Troubleshooting Project</h3>
+            <ul>
+                <li>Assisted third-party developers in troubleshooting their integration with Salesforce.com APIs, Apex, and Visualforce.</li>
+                <li>Debugged and resolved technical issues to ensure a seamless integration experience for developers.</li>
+                <li>Developed documentation outlining best practices for integrating with Salesforce APIs.</li>
+                <li>Created reusable code snippets and templates for common integration scenarios.</li>
+            </ul>
+
+            <h3>Client-Server Application using Python Sockets</h3>
+            <ul>
+                <li>Developed a client-server application in Python to enable real-time data exchange between multiple clients and a central server.</li>
+                <li>Implemented encryption mechanisms to ensure data security during transmission.</li>
+                <li>Conducted load testing to assess the application’s scalability and performance under various conditions.</li>
+                <li>Integrated logging and error handling features to facilitate troubleshooting and debugging.</li>
+            </ul>
+
+            <h3>Supply Chain Optimization Project</h3>
+            <ul>
+                <li>Analyzed transportation data to optimize delivery routes for Amazon packages, reducing transportation costs by 20%.</li>
+                <li>Developed a predictive model using machine learning algorithms to forecast demand and optimize inventory levels.</li>
+                <li>Conducted sensitivity analysis to evaluate the impact of various factors on supply chain performance.</li>
+                <li>Implemented automated data collection processes to gather real-time information for optimization.</li>
+            </ul>
+
+            <h3>Salesforce Sales Team Optimization</h3>
+            <ul>
+                <li>Spearheaded a Salesforce customization initiative to optimize sales team workflows, resulting in streamlined processes and improved efficiency.</li>
+                <li>Implemented advanced features such as process automation, custom objects, and workflow rules to tailor Salesforce to the unique needs of the organization.</li>
+                <li>Integrated Salesforce with third-party tools to enhance data synchronization and provide a unified platform for sales activities.</li>
+                <li>Conducted comprehensive user training sessions and provided ongoing support, resulting in high user adoption rates and positive feedback from stakeholders.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="work-experience">
+        <div class="container">
+            <h2>Work Experience</h2>
+
+            <h3>Analyst at Walmart, Edmonton, AB</h3>
+            <p><strong>Oct 2021 – Present</strong></p>
+            <ul>
+                <li>Managed Salesforce roles, profiles, sharing rules, and workflows. Created reports and dashboards according to business requirements.</li>
+                <li>Collaborated with third-party developers to troubleshoot integration issues with Salesforce APIs, Apex, and Visualforce.</li>
+                <li>Maintained and provided permissions to communication templates based on profiles. Provided user support and bug fixing activities as per SLA.</li>
+                <li>Contributed to the development of internal tools to streamline processes.</li>
+            </ul>
+
+            <h3>Supply Chain Transportation Analyst at Amazon, Hyderabad</h3>
+            <p><strong>June 2019 – Aug 2021</strong></p>
+            <ul>
+                <li>Maintained the Salesforce platform by monitoring user issues and support cases.</li>
+                <li>Collaborated with business stakeholders to design and implement custom functionality in Salesforce using LWC, Apex, and Visualforce.</li>
+                <li>Conducted data analysis to identify trends and patterns in supply chain data, leading to process optimizations.</li>
+                <li>Managed workflow of ongoing business processes. Created and maintained user profiles, workflows, dashboards on Salesforce CRM.</li>
+                <li>Provided technical support and training to end-users on Salesforce CRM functionalities and best practices.</li>
+            </ul>
         </div>
     </section>
 
@@ -60,3 +228,10 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+</body>
+</html>
+
+
+
+
